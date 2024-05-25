@@ -30,7 +30,6 @@ export default {
         alert("Nechi marotaba ko'rilganini kiriting");
       } else {
         const newMovie = {
-          id: Date.now(),
           name: this.name.trim(),
           viewers: this.viewers.trim(),
           favourite: false,
